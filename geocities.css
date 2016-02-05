@@ -2,7 +2,6 @@ body {
   font-family: "Comic Sans MS", cursive, sans-serif;
   background-image: url("pictures/starbackground.gif");
 }
-
 header {
   background-image: url("pictures/homepage.gif");
   height: 180px;
@@ -12,7 +11,6 @@ header {
 h2, p {
   display: none;
 }
-
 a {
     display: inline-block;
     color: white;
@@ -20,11 +18,9 @@ a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 a:hover {
     background-color: blue;
 }
-
 div {
     float: left;
     border: 6px solid green;
@@ -35,35 +31,28 @@ div {
     padding: 20px;
     width: 332px;
 }
-
 button {
   border: none;
 }
-
 img {
   background-image: url("pictures/starbackground.gif");
 }
-
 section {
   float: left;
 }
-
 ol, ul {
   display: none;
 }
-
 #hiddengif {
   display: none;
   margin: 10px;
 }
-
 .gifbutton, #geocities {
   background-color: white;
   color: red;
   font-size: 18px;
   border-radius: 10px;
 }
-
 .gifbutton:hover, #geocities:hover {
   background-color: blue;
   color: white;
