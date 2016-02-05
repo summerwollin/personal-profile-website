@@ -4,20 +4,13 @@ body {
 }
 
 header {
-  color: #404040;
   background-image: url("pictures/homepage.gif");
+  height: 180px;
+  width: 600px;
+  margin-left: 200px;
 }
-
-h2 {
-  color: green;
-}
-
-p {
-  color: green;
-}
-
-nav {
-  background-color: green;
+h2, p {
+  display: none;
 }
 
 a {
@@ -38,7 +31,7 @@ div {
     border-radius: 5px;
     background-color: purple;
     color: white;
-    margin: 0 50px 50px 50px;
+    margin: 0 70px 50px 100px;
     padding: 20px;
     width: 332px;
 }
@@ -51,40 +44,27 @@ img {
   background-image: url("pictures/starbackground.gif");
 }
 
-.container {
+section {
   float: left;
 }
 
-.list {
+ol, ul {
   display: none;
 }
 
-.hiddengif {
+#hiddengif {
   display: none;
+  margin: 10px;
 }
 
-.gifbutton {
-  border: 3px solid #f2f2f2;
-  border-radius: 10px;
+.gifbutton, #geocities {
   background-color: white;
-  width: 200px;
-  height: 50px;
   color: red;
   font-size: 18px;
-
-}
-
-.spice {
-  border: 3px solid #f2f2f2;
   border-radius: 10px;
-  background-color: white;
-  width: 200px;
-  height: 50px;
-  color: red;
-  font-size: 18px;
-
 }
 
-.gifbox {
-  clear: left;
+.gifbutton:hover, #geocities:hover {
+  background-color: blue;
+  color: white;
 }
