@@ -1,9 +1,9 @@
 $(document).ready(function() {
     $('div').on('click', 'button', function () {
       $(this).closest('div').find('ol, ul').slideToggle();
-      $(this).closest('div').find('.hiddengif').slideToggle();
+      $(this).closest('div').find('#hiddengif').slideToggle();
     });
-    $('.timemachine').on('click', '.spice', function() {
+    $('div').on('click', '#geocities', function() {
       if ($('#timemachine-stylesheet').attr('href') == 'stylesheet.css') {
         $('#timemachine-stylesheet').attr('href', 'timemachine-stylesheet.css');
         $('#img1').attr('src', 'pictures/partycat.gif');

@@ -2,16 +2,13 @@ body {
   font-family: "Optima", sans-serif;
   background-color: #e6e6e6;
 }
-
 header {
   color: #404040;
   background-color: #e6e6e6;
 }
-
 nav {
   background-color: #333;
 }
-
 a {
     display: inline-block;
     color: white;
@@ -19,11 +16,9 @@ a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 a:hover {
     background-color: #111;
 }
-
 div {
   float: left;
   border: 6px solid #f2f2f2;
@@ -34,25 +29,20 @@ div {
   padding: 20px;
   width: 332px;
 }
-
 button {
   border: none;
 }
-
 section {
   float: left;
 }
-
 ol, ul {
   display: none;
 }
-
-.hiddengif {
+#hiddengif {
   display: none;
   margin: 10px;
 }
-
-.gifbutton, .spice {
+.gifbutton, #geocities {
   background-color: white;
   color: red;
   font-size: 18px;
