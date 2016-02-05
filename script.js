@@ -4,13 +4,13 @@ $(document).ready(function() {
       $(this).closest('div').find('#hiddengif').slideToggle();
     });
     $('div').on('click', '#geocities', function() {
-      if ($('#timemachine-stylesheet').attr('href') == 'stylesheet.css') {
-        $('#timemachine-stylesheet').attr('href', 'timemachine-stylesheet.css');
+      if ($('#changing-stylesheet').attr('href') == 'stylesheet.css') {
+        $('#changing-stylesheet').attr('href', 'geocities.css');
         $('#img1').attr('src', 'pictures/partycat.gif');
         $('#img2').attr('src', 'pictures/internet-party.gif');
       }
       else {
-        $('#timemachine-stylesheet').attr('href', 'stylesheet.css');
+        $('#changing-stylesheet').attr('href', 'stylesheet.css');
         $('#img1').attr('src', 'pictures/schooldesks.jpg');
         $('#img2').attr('src', 'pictures/success.jpg');
       }
