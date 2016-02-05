@@ -1,0 +1,90 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-image: url("pictures/starbackground.gif");
+}
+
+header {
+  color: #404040;
+  background-image: url("pictures/homepage.gif");
+}
+
+h2 {
+  color: green;
+}
+
+p {
+  color: green;
+}
+
+nav {
+  background-color: green;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+div {
+    float: left;
+    border: 6px solid green;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    margin: 0 50px 50px 50px;
+    padding: 20px;
+    width: 332px;
+}
+
+button {
+  border: none;
+}
+
+img {
+  background-image: url("pictures/starbackground.gif");
+}
+
+.container {
+  float: left;
+}
+
+.list {
+  display: none;
+}
+
+.hiddengif {
+  display: none;
+}
+
+.gifbutton {
+  border: 3px solid #f2f2f2;
+  border-radius: 10px;
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  color: red;
+  font-size: 18px;
+
+}
+
+.spice {
+  border: 3px solid #f2f2f2;
+  border-radius: 10px;
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  color: red;
+  font-size: 18px;
+
+}
+
+.gifbox {
+  clear: left;
+}
